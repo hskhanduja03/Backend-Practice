@@ -1,6 +1,7 @@
 //          Second approach where db is setup in DB folder
 import connectDB from "./db/index.js";
 import dotenv from "dotenv"
+import app from "./app.js"
 
 
 dotenv.config({
