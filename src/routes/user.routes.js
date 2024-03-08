@@ -18,11 +18,11 @@ router.route("/register").post(
     ]),
     registerUser
     )
-    
+
 router.route("/login").post(loginUser)
 
 // secured routes
-route.route("/logout").post(verifyJWT, logoutUser)
+router.route("/logout").post(verifyJWT, logoutUser)
 
 
 
